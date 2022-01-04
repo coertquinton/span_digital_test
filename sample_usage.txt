@@ -1,0 +1,88 @@
+REAL LIFE EXAMPLES OF RUNNING THE AUTOMATED TESTS
+-------------------------------------------------
+
+quinton@quinton:~/tutorials/span_digital_test$ python3 -m unittest discover........
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+
+
+
+
+REAL LIFE EXAMPLES OF USING THE APPLICATION
+-------------------------------------------
+
+quinton@quinton:~/tutorials/span_digital_test$ python3 league_results/league.py
+League Table Program
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": file input
+Please enter the name of the League Results file:test_data.dat
+
+League Table
+------------
+1. Tarantulas, 6 points
+2. Lions, 5 points
+3. FC Awesome, 1 points
+4. Snakes, 1 points
+5. Grouches, 0 points
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": file input 
+Please enter the name of the League Results file:gdgdd.gdgd
+
+Error
+File gdgdd.gdgd not found in directory league_results/data_files
+
+League Table
+------------
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": file input 
+Invalid command entered.
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": file input
+Please enter the name of the League Results file:test_data.dat
+
+League Table
+------------
+1. Tarantulas, 6 points
+2. Lions, 5 points
+3. FC Awesome, 1 points
+4. Snakes, 1 points
+5. Grouches, 0 points
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": cmd line
+
+Please enter the match data or type "done" and press enter.
+Match Data Format:  <TEAM_A> <TEAM_A_SCORE>, <TEAM_B> <TEAM_B_SCORE>
+Enter match data:lions 3, snakes 3
+Please enter the match data or type "done" and press enter.
+Enter match data:tarantulas 1, fc awesome 0
+Please enter the match data or type "done" and press enter.
+Enter match data:lions 1, f  awesome 1
+Please enter the match data or type "done" and press enter.
+Enter match data:tarantulas 3, snakes 1
+Please enter the match data or type "done" and press enter.
+Enter match data:lions 4, grouches 0
+Please enter the match data or type "done" and press enter.
+Enter match data:lions2, grouches 3
+-- Error.  Data not excepted for lions2, grouches 3
+Please enter the match data or type "done" and press enter.
+Enter match data:done
+
+League Table
+------------
+1. tarantulas, 6 points
+2. lions, 5 points
+3. f  awesome, 1 points
+4. snakes, 1 points
+5. fc awesome, 0 points
+6. grouches, 0 points
+
+Please type "file input", "cmd line" or "exit" and then press enter
+Enter "file input", "cmd line" or "exit": exit
+
